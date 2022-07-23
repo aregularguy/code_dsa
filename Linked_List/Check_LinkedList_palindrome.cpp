@@ -13,7 +13,7 @@ class Node
 };
 bool Palin(Node * head)
 {
-    Node* slow;
+    Node* slow = head;
     stack <int> s;
     while(slow!=NULL)
     {
