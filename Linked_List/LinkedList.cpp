@@ -53,18 +53,25 @@ class ll {
         }
         
     }
+    void insert5()
+    {
+        node* tmp = head;
+        while(head)
+        {
+            
+        }
+    }
 };
 
 
 int main() {
-    // Write C++ code here
-    std::cout << "Hello world!";
     ll l;
     l.insert(2);
     l.insert(3);
     l.insert(5);
     l.insert(6);
     l.print();
+    
 
     return 0;
 }
