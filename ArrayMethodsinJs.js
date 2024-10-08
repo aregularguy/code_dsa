@@ -18,8 +18,31 @@ const sum = arr.reduce((res,arr1) => {
 })
 console.log(sum)
 // runs on every number in array , and return true even if only one value satisfies condition
-const no_lessthan10 = arr.some((value) =>  value <=0)
+const no_lessthan10 = arr.some((value) =>  value < 10)
 console.log(no_lessthan10)
 
 const positive = arr.every((value) => value >10)
 console.log(positive)
+
+
+
+// find
+
+const obj =[
+    
+    {
+        id:12,
+        name:"Arshad",
+    },
+    {
+        id:10,
+        name:"Bagwan",
+    }
+    ]
+    
+const result = obj.find((item) => item.id ==12)
+console.log(result)
+
+/// find index
+const resultindex = obj.findIndex((item) => item.id ==12)
+console.log(resultindex)
